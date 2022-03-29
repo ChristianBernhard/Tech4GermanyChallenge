@@ -1,1 +1,32 @@
-<mat-card>data-table works!</mat-card>
+<mat-card>
+  <mat-card-header>
+    <mat-form-field>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Suche..." />
+    </mat-form-field>
+  </mat-card-header>
+
+  <mat-card-content>
+    <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+      <ng-container matColumnDef="department">
+        <th mat-header-cell *matHeaderCellDef>Department</th>
+        <td class="left" mat-cell *matCellDef="let element">{{ element.department }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef>Description</th>
+        <td class="left" mat-cell *matCellDef="let element">{{ element.description }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="datasets">
+        <th mat-header-cell *matHeaderCellDef>#Datasets</th>
+        <td class="right" mat-cell *matCellDef="let element">{{ element.datasets }}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </mat-table>
+
+    <mat-paginator [pageSizeOptions]="[10, 20, 50]" showFirstLastButtons>
+    </mat-paginator>
+  </mat-card-content>
+</mat-card>

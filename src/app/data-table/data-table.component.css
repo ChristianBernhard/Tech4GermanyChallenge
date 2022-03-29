@@ -1,5 +1,21 @@
 mat-card {
     height: 100%;
-    background-color: #4265FF;
+    background-color: #fff;
     margin: 1vh;
+}
+
+td, th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+td.left {
+    text-align: left !important;
+}
+
+td.right {
+    text-align: right !important;
+}
+.mat-sort-header-container {
+    justify-content: center !important;
 }
