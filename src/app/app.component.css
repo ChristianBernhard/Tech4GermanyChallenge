@@ -14,12 +14,24 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 100%;
 }
 
 app-data-table {
     flex-grow: 1;
-    height: 83vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+}
+
+app-data-chart {
+    flex-grow: 1;
+    width: 90vw;
+    margin-left: 5vw;
+    box-shadow: 
+    0px 5px 5px -3px rgb(0 0 0 / 20%),
+    0px 8px 10px 1px rgb(0 0 0 / 14%),
+    0px 3px 14px 2px rgb(0 0 0 / 12%);
 }
 

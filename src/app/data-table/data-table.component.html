@@ -1,11 +1,9 @@
-<mat-card>
-  <mat-card-header>
+
     <mat-form-field>
       <input matInput (keyup)="applyFilter($event)" placeholder="Suche..." />
     </mat-form-field>
-  </mat-card-header>
 
-  <mat-card-content>
+
     <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
       <ng-container matColumnDef="department">
         <th mat-header-cell *matHeaderCellDef>Department</th>
@@ -28,5 +26,3 @@
 
     <mat-paginator [pageSizeOptions]="[10, 20, 50]" showFirstLastButtons>
     </mat-paginator>
-  </mat-card-content>
-</mat-card>
