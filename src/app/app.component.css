@@ -1,6 +1,25 @@
-mat-card {
-    margin: 1em;
+.navbar{
+    margin: 1vh;
     background-color: #4265FF;
     color: #fff;
     font-size: 2em;
+    height: 5vh;
 }
+
+.top-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+app-data-table {
+    flex-grow: 1;
+    height: 83vh;
+}
+
