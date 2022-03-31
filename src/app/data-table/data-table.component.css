@@ -1,3 +1,18 @@
+.searchbar {
+    width: 98%;
+    margin: 1%;
+}
+
+.mat-elevation-z8 {
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  
+  }
+
+
 mat-table {
     display: table;
     width: 90vw;
@@ -7,6 +22,11 @@ td, th {
     text-align: center !important;
     vertical-align: middle !important;
 }
+
+th {
+    background-color: #d3d3d3;
+    border: 2px rgba(0, 0, 0, 0.1);
+  }
 
 td.left {
     text-align: left !important;
