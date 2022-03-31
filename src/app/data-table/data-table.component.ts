@@ -26,9 +26,12 @@ export class DataTableComponent implements OnInit {
     })
   }
 
+  applyUserInputFilterToDataTable(event: Event) {
+    const userInput = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = this.preProcessUserInput(userInput);
+  }
 
-  applyFilter(event: Event) {
-    const filterValue = (event.target as HTMLInputElement).value;
-    this.dataSource.filter = filterValue.trim().toLowerCase();
+  preProcessUserInput(userInput: string) {
+    return userInput.trim().toLowerCase();
   }
 }
