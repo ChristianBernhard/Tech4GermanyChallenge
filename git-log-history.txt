@@ -1,3 +1,9 @@
+commit c48b4d5830cc00ee1418af0081028e3766f56ed0
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 20:25:33 2022 +0200
+
+    added git-log-history and updated readme
+
 commit 9869ec0ace85d424693ee634a6c716321a28811d
 Author: Christian <christian.bernhard97@web.de>
 Date:   Thu Mar 31 20:22:26 2022 +0200
