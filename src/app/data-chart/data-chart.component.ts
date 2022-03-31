@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { GovernmentService } from '../government.service'; 
+import { GovData, GovernmentService } from '../government.service'; 
+
+export type ChartData = {
+  name: string;
+  value: number;
+}
+
 
 @Component({
   selector: 'app-data-chart',
@@ -7,21 +13,21 @@ import { GovernmentService } from '../government.service';
   styleUrls: ['./data-chart.component.css']
 })
 export class DataChartComponent implements OnInit {
-  data = this.transformData();
+
+  data!: ChartData[];
   constructor(private governmentService: GovernmentService) { }
 
   ngOnInit(): void {
-    this.data = this.transformData();
+    this.governmentService.getGovernmentData().subscribe((data) => this.data = this.transformData(data));
   }
 
-  transformData() {
-    const newArray = this.governmentService.getGovernmentData().map(item => {
+  transformData(dataSource: GovData[]): ChartData[] {
+    return dataSource.map(item => {
       return {
-        "name":item.department,
-        "value":item.datasets
-      }
-    })
-    return newArray
+        name: item.department,
+        value: item.datasets
+      } as ChartData
+    });
   }
 
 }
