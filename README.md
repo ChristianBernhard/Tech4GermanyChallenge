@@ -1,12 +1,14 @@
 # Tech4germany
 
-Submission of [Christian Bernhard] (https://www.linkedin.com/in/christian-bernhard-597224199/)
+Submission of [Christian Bernhard](https://www.linkedin.com/in/christian-bernhard-597224199/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
+
 Requirements: 
-Install [Node.js] (https://nodejs.org/en/download/)
+Install [Node.js](https://nodejs.org/en/download/)
 Run `npm install -g @angular/cli`
+
 
 Run the Application:
 Run `ng serve`

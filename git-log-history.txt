@@ -1,0 +1,89 @@
+commit 9869ec0ace85d424693ee634a6c716321a28811d
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 20:22:26 2022 +0200
+
+    updated readme
+
+commit ea6ac9b39a28215ac7deb34c6134281771a80965
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 20:06:49 2022 +0200
+
+    refactored data-chart styling
+
+commit 05679495c9af6fe77ad32a85d3403c9d05ac1a3a
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 20:00:29 2022 +0200
+
+    refactored nav-bar styling
+
+commit 5ea354078263a3afcd7ef6c8c7e4db21cb606c1d
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 19:59:03 2022 +0200
+
+    refactored data-table styling
+
+commit db52a8e8e6b5e8bde8da0d1a71fb6ea5badab352
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 19:37:40 2022 +0200
+
+    adapt data-table.component according to government service refactoring
+
+commit cbb44a491e588ad2866a7234b693ad752ffc9717
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 19:20:46 2022 +0200
+
+    adapt data-chart.component according to government service refactoring
+
+commit 2a74df91d01c24b73e5471f647b0415ca65282ba
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 19:14:08 2022 +0200
+
+    refactored governmentService by using HttpClient
+
+commit e1c375bc366cbee6051359f3321cd7b956401649
+Author: Christian <christian.bernhard97@web.de>
+Date:   Thu Mar 31 19:07:42 2022 +0200
+
+    added data as json file to assets
+
+commit b083d43ff192d1abb343c74e88414589ff1564ac
+Author: Christian <christian.bernhard97@web.de>
+Date:   Wed Mar 30 00:05:38 2022 +0200
+
+    fix tests
+
+commit d763882160a89c3869745ed2cbac59aa110afaf3
+Author: Christian <christian.bernhard97@web.de>
+Date:   Tue Mar 29 23:56:46 2022 +0200
+
+    implement data-chart
+
+commit 5595e80c19bce59252501bcc7d9436cd1bd3480e
+Author: Christian <christian.bernhard97@web.de>
+Date:   Tue Mar 29 23:06:28 2022 +0200
+
+    implement data-table
+
+commit 3e58708150325e1aa1c2529de58173db95996140
+Author: Christian <christian.bernhard97@web.de>
+Date:   Tue Mar 29 22:55:53 2022 +0200
+
+    setup government service
+
+commit f2f0dc14cde9813f2681f8484ce422c4eb5e4005
+Author: Christian <christian.bernhard97@web.de>
+Date:   Tue Mar 29 22:54:03 2022 +0200
+
+    setup datatable
+
+commit d7aca0e1429d5f00e7ac71e11d967075a0613542
+Author: Christian <christian.bernhard97@web.de>
+Date:   Tue Mar 29 22:36:17 2022 +0200
+
+    Implement NavBar
+
+commit 49583cd3c89fc69b4d6161f9c934f30c0c350d04
+Author: Christian <christian.bernhard97@web.de>
+Date:   Tue Mar 29 22:07:51 2022 +0200
+
+    initial commit
