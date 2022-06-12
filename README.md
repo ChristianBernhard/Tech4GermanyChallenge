@@ -1,6 +1,10 @@
 # Tech4germany  
 
-Submission of [Christian Bernhard](https://www.linkedin.com/in/christian-bernhard-597224199/)  
+Submission of [Christian Bernhard](https://www.linkedin.com/in/christian-bernhard-597224199/) for the [Tech4Germany Fellowship Program](https://digitalservice.bund.de/fellowships/tech4germany/).
+
+At Tech4Germany, the best talents and experts from the fields of product, design and engineering work with digital pioneers from federal ministries and authorities on concrete digital projects of the federal administration. In interdisciplinary teams, they use agile and user-centric methods to develop a deep understanding of problems and users and create prototype software products within 3 months.
+
+Role: Engineering Fellow
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.  
 
