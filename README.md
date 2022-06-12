@@ -1,4 +1,4 @@
-# Tech4germany  
+# Tech4germany Application
 
 Submission of [Christian Bernhard](https://www.linkedin.com/in/christian-bernhard-597224199/) for the [Tech4Germany Fellowship Program](https://digitalservice.bund.de/fellowships/tech4germany/).
 
